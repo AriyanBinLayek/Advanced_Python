@@ -6,10 +6,6 @@ laura_hampton_session_4.py
 import datetime
 import re 
 
-
-re_patterns = [r'^\d+\/\d+\/\d+$', r'\d+\-\w\w\w\-\d\d',r'\d\d\d\d\-\d+\-\d+']
-
-
 def get_date(str_date=None):
     if not str_date:
         return datetime.date.today() 
